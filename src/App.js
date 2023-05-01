@@ -18,6 +18,8 @@ import Subscribe from './Components/Subscribe';
 
 import SearchInp from './Components/SearchInp';
 import Footer from './Components/Footer';
+import Navmovies from './Components/Navmovies';
+import Loader from './Components/Loader';
 // import firebase from './Components/firebase';
 
 function App() {
@@ -43,6 +45,8 @@ function App() {
         <Route path ='/login' element={<Login/>}/>
         <Route path="/subscribe" element={<Subscribe/>}/>
         <Route path="/search" element={<SearchInp/>}/>
+        <Route path="/navmovies" element={<Navmovies/>}/>
+        <Route path="/loder" element={<Loader/>}/>
       </Routes>
 
 <div>

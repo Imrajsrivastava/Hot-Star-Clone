@@ -107,7 +107,7 @@ function NavbarHotStar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             <div className="dropdownA">
-              <Link className="navlinks" to="/TV">
+              <Link className="navlinks" to="/Tv">
                 TV
               </Link>
               <div class="dropdown-contentA">
@@ -124,7 +124,7 @@ function NavbarHotStar() {
             </div>
 
             <div class="dropdownA">
-              <Link className="dropbtnA" to="/Movies">
+              <Link className="dropbtnA" to="/navmovies">
                 Movies
               </Link>
               {/* <button class="dropbtn">Dropdown</button> */}
@@ -144,7 +144,7 @@ function NavbarHotStar() {
             </div>
 
 
-          <div className="dropdownA"> <Link className="navlinks" to="/Sports">
+          <div className="dropdownA"> <Link className="navlinks" to="/Channel">
               Sports
             </Link>
             <div class="dropdown-contentA">
